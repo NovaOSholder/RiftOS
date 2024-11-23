@@ -10,14 +10,13 @@ const urlsToCache = [
   'https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap',
   '/system32.js',
   '/style.css',
-  '/N.webp',
-  '/nova.css',
+  '/.css',
   'https://code.jquery.com/jquery-3.6.4.min.js',
-  '/scripts/edgecases.js',
-  '/scripts/scripties.js',
+  '/scr/edgecases.js',
+  '/scr/scrpts.js',
   '/script.js',
   '/scripts/LZ-utf8.js',
-  '/scripts/kernel.js'
+  '/scr/riftkrnl.js'
 ];
 
 self.addEventListener('install', (event) => {
